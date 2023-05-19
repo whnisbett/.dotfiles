@@ -86,7 +86,9 @@ plugins=(
     zsh-autosuggestions
     zsh-navigation-tools
 )
-eval "$(thefuck --alias)"
+if [[ "$OSTYPE" == "darwin"*  ]]; then
+    eval "$(thefuck --alias)"
+fi
 
 source $ZSH/oh-my-zsh.sh
 
