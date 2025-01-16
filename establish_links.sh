@@ -10,7 +10,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # ZSH-AUTOSUGGESTION
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # DIRENV
-curl -sfL https://direnv.net/install.sh
+curl -sfL https://direnv.net/install.sh | bash
 # PYENV
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 # PYENV VIRTUALENV
